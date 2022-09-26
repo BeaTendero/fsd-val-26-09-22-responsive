@@ -1,0 +1,57 @@
+body{
+    background-color: blue;
+}
+@media (min-width: 500px ){
+    body  {
+        background-color: rgb(0, 255, 106);
+    }
+}
+body{
+    background-color: blue;
+    font-size: 40px;
+    
+}
+.container{
+    background-color: chartreuse;
+}
+.imagen1-container{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    }
+
+    .image-container{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+   
+    }
+    .menu-der{
+   
+        display: flex;
+        align-items: center;
+        justify-content:flex-end;
+        justify-content: space-evenly;
+        width: 15vw; 
+        
+    }
+    .lupa{
+        display: flex;
+        width: 15px;
+        margin-top: 10px; 
+        
+    }
+    .regalo{
+        color: white;
+        display: flex;
+        width: 10px;
+    }
+    
+    .campana{
+        display: flex;
+        width: 10px;
+    }
+    .usuario{
+        display: flex;
+        width: 10px;
+        }
